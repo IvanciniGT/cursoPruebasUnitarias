@@ -19,3 +19,5 @@ z
 Jsrc/main/java/com/curso/impl/SiministradorDeDiccionariosDesdeFicheros.java,0/7/0766157a5c6bafbe445fae57cdeff1760cc2ccd0
 @
 notas/pruebas.md,3/f/3f788bc1aabfc5e98ca42bb8720091f80d98ef6a
+l
+<src/test/java/com/curso/SuministradorDeDiccionariosTest.java,3/a/3a25358e0931f7bdfe77c36cf7ac55e9bdbec277
