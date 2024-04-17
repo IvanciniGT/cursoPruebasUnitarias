@@ -17,3 +17,5 @@ i
 9src/main/java/com/curso/impl/DiccionarioDesdeFichero.java,4/b/4ba57cc0f635c6e9b9bdc971a3c7cecce1548d04
 z
 Jsrc/main/java/com/curso/impl/SiministradorDeDiccionariosDesdeFicheros.java,0/7/0766157a5c6bafbe445fae57cdeff1760cc2ccd0
+@
+notas/pruebas.md,3/f/3f788bc1aabfc5e98ca42bb8720091f80d98ef6a
