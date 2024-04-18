@@ -26,3 +26,12 @@ Característica: Componente Diccionario
         | perro   | Animal de compañía | 2                 |
         | manzana | Fruta del manzano  | 1                 |
         | Manzana | Fruta del manzano  | 1                 |
+
+  Esquema del escenario: Definiciones de palabras no existentes
+    Cuando   le pido los significados de la palabra "<palabra>"
+    Entonces el diccionario no me devuelve una lista
+
+    Ejemplos:
+        | palabra |
+        | platano |
+        | maaskas |

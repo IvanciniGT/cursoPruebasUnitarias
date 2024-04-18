@@ -3,12 +3,21 @@ package com.curso;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Entonces;
+import org.junit.platform.suite.api.IncludeEngines;
+import org.junit.platform.suite.api.SelectClasspathResource;
+import org.junit.platform.suite.api.Suite;
 
 import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@Suite
+// Esta clase contiene una suite de prueba (un conjunto) de JUNIT
+@IncludeEngines("cucumber")
+// qué motor de pruebas debe ejecutar las pruebas definidas en esta clase
+@SelectClasspathResource("features") // Carpeta features
+// Le indico a unit ficheros que debe pasar al motor de pruebas: CUCUMBER
 public class DiccionarioCucumberTest {
 
     private Diccionario miDiccionario;
@@ -44,5 +53,10 @@ public class DiccionarioCucumberTest {
     @Entonces("el primer significado es {string}")
     public void el_primer_significado_es(String primerSignificado) {
         assertEquals(primerSignificado, significados.get().get(0));
+    }
+
+    @Entonces("el diccionario no me devuelve una lista")
+    public void elDiccionarioNoMeDevuelveUnaLista() {
+        assertFalse(significados.isPresent());
     }
 }

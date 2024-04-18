@@ -872,4 +872,8 @@ Cucumber es un framework que nos permite/ofrece:
 - Un motor de ejecución de pruebas
 - Un generador automático del esqueleto de mis clases de prueba 
 
-
+MAVEN
+   v
+SUREFIRE
+   v
+JUNIT-PLATFORM    >     CUCUMBER-JUNIT_PLATFORM        >       CUCUMBER
