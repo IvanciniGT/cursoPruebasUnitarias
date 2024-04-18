@@ -18,7 +18,7 @@ Característica: Componente Diccionario
 
   Esquema del escenario: Definiciones de palabras existentes
     Cuando   le pido los significados de la palabra "<palabra>"
-    Entonces el diccionario me devuelve una lista con "<numeroSignificados>" significados
+    Entonces el diccionario me devuelve una lista con <numeroSignificados> significados
      Y       el primer significado es "<primerSignificado>"
 
     Ejemplos:

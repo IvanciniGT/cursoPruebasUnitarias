@@ -23,3 +23,5 @@ l
 <src/test/java/com/curso/SuministradorDeDiccionariosTest.java,3/a/3a25358e0931f7bdfe77c36cf7ac55e9bdbec277
 \
 ,src/test/java/com/curso/DiccionarioTest.java,c/a/cada60c8a1512c0d9b026467a8034f6d92af2356
+d
+4src/test/java/com/curso/DiccionarioCucumberTest.java,8/a/8a25b3493e0961016b37432e78225268e38348e1
