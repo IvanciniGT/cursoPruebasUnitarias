@@ -850,3 +850,26 @@ Métodos marcados como obsoletos (deprecated)
 + Pueden venir bugs arreglados
 + También pueden venir nuevos bugs
 3: PATCH    Arreglos de bugs
+
+
+# JUNIT
+
+Hoy en día es más que una librería para definir pruebas.
+Actúa como integrador de motores de ejecución de pruebas: JUNIT PLATFORM
+
+Hay una librería que usamos mucho hoy en día... Nos encanta.
+Es más cómoda para definir los test que JUNIT... y encima nos permite escribir mucho menos código (mayor nivel de reutilización del código)
+Y encima, puedo usarla (una parte de ella) sin necesidad de saber programar... LO CUAL LA HACE IDEAL PARA EQUIPOS DONDE HAY TESTERS QUE NO SABEN PROGRAMAR.
+
+Esa librería es CUCUMBER
+Realmente Cucumber trabaja complementariamente con JUNIT... con 2 propósitos:
+Puede usar la parte de Aserciones de JUNIT, ya que Cucumber no trae nada de eso.
+Y además se puede ejecutar desde JUNIT (JUNIT PLATFORM)... y esto es IMPORTANTISIMO 
+Ya que en última instancia quien ejecutará los test será MAVEN > SUREFIRE > JUNIT > CUCUMBER
+
+Cucumber es un framework que nos permite/ofrece:
+- Un lenguaje propio, llamado Gherkin, para definir pruebas
+- Un motor de ejecución de pruebas
+- Un generador automático del esqueleto de mis clases de prueba 
+
+
