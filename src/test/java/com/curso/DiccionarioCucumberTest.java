@@ -15,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @Suite
 // Esta clase contiene una suite de prueba (un conjunto) de JUNIT
 @IncludeEngines("cucumber")
+// "cucumber" nos lo da la dependencia cucumber-junit-platform-engine
 // qué motor de pruebas debe ejecutar las pruebas definidas en esta clase
 @SelectClasspathResource("features") // Carpeta features
 // Le indico a unit ficheros que debe pasar al motor de pruebas: CUCUMBER

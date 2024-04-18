@@ -877,3 +877,50 @@ MAVEN
 SUREFIRE
    v
 JUNIT-PLATFORM    >     CUCUMBER-JUNIT_PLATFORM        >       CUCUMBER
+
+
+
+
+
+
+
+
+
+
+
+----
+
+# Arquitecturas de "Microservicios"
+
+## Arquitectura Monolítica
+
+Montábamos mega-aplicaciones java web... que corrían en monstruo-servidores de aplicaciones java: Weblogic, Websphere, JBoss 
+
+IBM : Websphere --> Liberty
+
+  FRONT                                                                     BACK
+hoy en dia tenemos 5 front
+  App web                                       json(xml, yaml)           http:// micro-servicios (stateless)
+  App movil android                                                       Controlador REST > Servicio > Repositorio 
+  App movil ios                                                             DTO            mapper      Entidad/Modelo
+  App tv
+  App IVR
+  App hw custom (alexa, ok google, cajero automático)
+
+
+Spring
+  -> .jar que dentro lleva embebido un tomcat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
