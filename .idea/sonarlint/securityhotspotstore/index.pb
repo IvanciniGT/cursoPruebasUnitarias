@@ -39,3 +39,5 @@ m
 =src/main/java/com/curso/microservicio/PersonaServiceImpl.java,8/2/82749d461f7da1b57bfe03ff04cbae23514c7247
 h
 8src/main/java/com/curso/microservicio/EmailsService.java,c/d/cda94b98a8497512a3c9cf2721477d1448fc9dbe
+j
+:src/test/java/com/curso/microservicio/RepositorioTest.java,f/4/f40a554b0d6a5c62b58f55f2539cbc3af35d1e95
