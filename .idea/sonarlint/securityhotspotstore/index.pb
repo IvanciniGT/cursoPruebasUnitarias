@@ -41,3 +41,11 @@ h
 8src/main/java/com/curso/microservicio/EmailsService.java,c/d/cda94b98a8497512a3c9cf2721477d1448fc9dbe
 j
 :src/test/java/com/curso/microservicio/RepositorioTest.java,f/4/f40a554b0d6a5c62b58f55f2539cbc3af35d1e95
+v
+Fsrc/test/java/com/curso/microservicio/MicroservicioAplicacionTest.java,e/e/ee6eea7edd98f532d48d1d44b8aa52cc4cfbcb5a
+m
+=src/test/java/com/curso/microservicio/EmailsServiceDummy.java,1/3/134d981a4581a1718b87cdc7aa72bd69be874dc0
+q
+Asrc/test/java/com/curso/microservicio/PersonaServiceUnitTest.java,2/c/2cfb4f2de796b806cf38f4c8ccbaefd095f85d9b
+‰
+Ysrc/test/java/com/curso/microservicio/PersonaServicePersonaRepositoryIntegrationTest.java,c/1/c1e85e03c541c0018fffcf58c0851cd5d74d27c5

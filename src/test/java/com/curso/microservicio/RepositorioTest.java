@@ -15,7 +15,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 //@ActiveProfiles("EmailServiceDummy") // Con esta anotación, le indico a Spring que cargue el fichero application-test.properties
 // Con esta anotación, le indico a JUNIT que esta clase puede requerir datros que sean suministrador por otros frameworks
 // En mi caso, le estoy diciendo que esta clase necesita que Spring le inyecte dependencias
-public class RepositorioTest {
+class RepositorioTest {
 
     private PersonaRepository personaRepository ;
     @MockBean
@@ -34,7 +34,7 @@ public class RepositorioTest {
     }
 
     @Test
-    public void testCrearPersona() {
+    void testCrearPersona() {
         // Dado que tengo una persona
         Persona persona = new Persona();
         persona.setNombre("Juan");
@@ -56,7 +56,7 @@ public class RepositorioTest {
     }
 
     @Test
-    public void tratarDeDarDeAltaUnaPersonaSinEmail() {
+    void tratarDeDarDeAltaUnaPersonaSinEmail() {
         // Dado que tengo una persona
         Persona persona = new Persona();
         persona.setNombre("Juan");

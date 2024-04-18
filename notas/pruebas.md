@@ -913,7 +913,22 @@ Spring
 
 
 
+Prueba de altaPersona
+  Persona p= new Persona();
+  p.setNombre("Federico");
+  p.setEdad(33);
+Persona guardada = repo.save(p);
+  // Miro que me devuelva los datos y un id
 
+Prueba de borrarPersona
+  // Crear una persona
+  Persona p= new Persona();
+  p.setNombre("Federico");
+  p.setEdad(33);
+  guardada = repo.save(p);
+  repo.deleteById(guardada.getId());
+  // Asegurar que ya no este
+  Assertions.assertThrows(NoSuchElementException.class, () -> repo.findById(guardada.getId()).get());
 
 
 

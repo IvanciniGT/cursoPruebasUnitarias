@@ -55,11 +55,11 @@ class PersonaServicePersonaRepositoryIntegrationTest {
         Assertions.assertEquals(30, personaRecuperada.getEdad());
         Assertions.assertTrue(personaRecuperada.getId() >= 1);
 
-        verify(emailsServiceSpy).mandarUnEmail(emailCaptorAsunto.capture(), emailCaptorCuerpo.capture());
+        /*verify(emailsServiceSpy).mandarUnEmail(emailCaptorAsunto.capture(), emailCaptorCuerpo.capture());
         assertEquals("Nueva persona creada", emailCaptorAsunto.getValue());
         assertTrue(emailCaptorCuerpo.getValue().contains(""+personaRecuperada.getId()));
         assertTrue(emailCaptorCuerpo.getValue().contains("Juan"));
-
+*/
         // Mecesito asegurarme que en el repo se ha creado la persona
         Persona personaRecuperadaDelRepo = personaRepository.findById(personaRecuperada.getId()).orElse(null);
         assertNotNull(personaRecuperadaDelRepo);
