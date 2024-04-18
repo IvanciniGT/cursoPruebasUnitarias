@@ -150,6 +150,26 @@ SPRINT1
 Conjunto de requisitos que debían implementarse     R1, R2, R3, R7, R14.        R7---> Se pasa a la siguiente iteración.
 Fecha                                               10-Junio
 
+
+Sprint 1    R1, R2, R3      10% funcionalidad del sistema
+  Pruebas R1, R2, R3, 10% de la funcionalidad
+Sprint 2   R4, R5, R6       +8% de la funcionalidad
+  Pruebas R4, R5, R6    8% de la funcionalidad
+  He tocado código... puedo haber jodido lo que estaba:
+  Pruebas R1, R2, R3, 10% de la funcionalidad   *** Las pruebas de arriba se han convertido en pruebas DE REGRESIÓN
+  EN TOTAL PRUEBO el 18% de la funcionalidad
+Spring 3    R7, R8, R9      +7% de la funcionalidad
+  Pruebas R7, R8, R9    7% de la funcionalidad
+  Pruebas R1, R2, R3, 10% de la funcionalidad
+  Pruebas R4, R5, R6    8% de la funcionalidad
+  EN TOTAL PRUEBO el 25% de la funcionalidad
+
+
+
+
+
+
+
 ---
 # DEV--->OPS
 
